@@ -104,4 +104,9 @@ https://erm.selu.edu/webpages/legal
 
 
 #### All Files names should have camel case convention
-#### Only use absolute import
+#### Use absolute path only
+
+## For starting server in production
+    git pull
+    npm run build
+    pm2 restart Ruskin
